@@ -1,0 +1,971 @@
+{
+  "topic": "星剪",
+  "audience": "短视频新手",
+  "platform": "抖音",
+  "style": "清晰演示",
+  "target_duration_seconds": 30,
+  "task_status": "complete",
+  "incomplete_reason": null,
+  "title": "星剪：配音功能演示",
+  "scenes": [
+    {
+      "narration": "做短视频，想给画面配上声音？看看星剪。",
+      "planned_seconds": 8,
+      "scene_id": "S1",
+      "source_refs": [],
+      "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+      "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」",
+      "spoken_minimum_seconds": 6,
+      "subtitle_minimum_seconds": 4,
+      "estimated_seconds": 8,
+      "start_seconds": 0,
+      "end_seconds": 8
+    },
+    {
+      "narration": "星剪支持配音。",
+      "planned_seconds": 8,
+      "scene_id": "S2",
+      "source_refs": [
+        {
+          "fact_id": "F01",
+          "material_id": "P01",
+          "quote": "支持配音"
+        }
+      ],
+      "subtitle": "星剪支持配音。",
+      "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」",
+      "spoken_minimum_seconds": 2,
+      "subtitle_minimum_seconds": 2,
+      "estimated_seconds": 8,
+      "start_seconds": 8,
+      "end_seconds": 16
+    },
+    {
+      "narration": "打开星剪，试试配音功能。",
+      "planned_seconds": 8,
+      "scene_id": "S3",
+      "source_refs": [],
+      "subtitle": "打开星剪，试试配音功能。",
+      "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样",
+      "spoken_minimum_seconds": 4,
+      "subtitle_minimum_seconds": 2,
+      "estimated_seconds": 8,
+      "start_seconds": 16,
+      "end_seconds": 24
+    }
+  ],
+  "estimated_total_seconds": 24,
+  "material_source_ids": [
+    "P01"
+  ],
+  "material_citations": [
+    {
+      "material_id": "P01",
+      "fact_id": "F01",
+      "quote": "支持配音"
+    }
+  ],
+  "material_gaps": [],
+  "risk_reasons": [],
+  "tool_results": {
+    "search_materials": [
+      {
+        "ok": true,
+        "query": "星剪 字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      },
+      {
+        "ok": true,
+        "query": "星剪 产品功能",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      }
+    ],
+    "estimate_duration": {
+      "1303d412df17": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      },
+      "ad4237df5231": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      }
+    },
+    "check_rules": {
+      "1303d412df17": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "passed": false,
+        "risks": [
+          {
+            "code": "unsupported_feature_claim",
+            "term": "快速"
+          }
+        ],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      "ad4237df5231": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    }
+  },
+  "draft_candidates": {
+    "1303d412df17": {
+      "title": "星剪：配音功能快速演示",
+      "scenes": [
+        {
+          "scene_id": "S1",
+          "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」",
+          "narration": "做短视频，想给画面配上声音？看看星剪。",
+          "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+          "planned_seconds": 8,
+          "source_refs": []
+        },
+        {
+          "scene_id": "S2",
+          "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」",
+          "narration": "星剪支持配音。",
+          "subtitle": "星剪支持配音。",
+          "planned_seconds": 8,
+          "source_refs": [
+            {
+              "material_id": "P01",
+              "fact_id": "F01",
+              "quote": "支持配音"
+            }
+          ]
+        },
+        {
+          "scene_id": "S3",
+          "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样",
+          "narration": "打开星剪，试试配音功能。",
+          "subtitle": "打开星剪，试试配音功能。",
+          "planned_seconds": 8,
+          "source_refs": []
+        }
+      ]
+    },
+    "ad4237df5231": {
+      "scenes": [
+        {
+          "narration": "做短视频，想给画面配上声音？看看星剪。",
+          "planned_seconds": 8,
+          "scene_id": "S1",
+          "source_refs": [],
+          "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+          "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」"
+        },
+        {
+          "narration": "星剪支持配音。",
+          "planned_seconds": 8,
+          "scene_id": "S2",
+          "source_refs": [
+            {
+              "fact_id": "F01",
+              "material_id": "P01",
+              "quote": "支持配音"
+            }
+          ],
+          "subtitle": "星剪支持配音。",
+          "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」"
+        },
+        {
+          "narration": "打开星剪，试试配音功能。",
+          "planned_seconds": 8,
+          "scene_id": "S3",
+          "source_refs": [],
+          "subtitle": "打开星剪，试试配音功能。",
+          "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样"
+        }
+      ],
+      "title": "星剪：配音功能演示"
+    }
+  },
+  "latest_script_id": "ad4237df5231",
+  "tool_call_count": 6,
+  "mode": "deepseek_chat",
+  "corpus_revision": "996d7bf66bcc",
+  "steps": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "query": "星剪 字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      }
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "query": "星剪 产品功能",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      }
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "passed": false,
+        "risks": [
+          {
+            "code": "unsupported_feature_claim",
+            "term": "快速"
+          }
+        ],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "action": "estimate_duration",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "complete",
+        "incomplete_reason": null,
+        "risk_reasons": [],
+        "material_gaps": [],
+        "title": "星剪：配音功能演示",
+        "scenes": [
+          {
+            "narration": "做短视频，想给画面配上声音？看看星剪。",
+            "planned_seconds": 8,
+            "scene_id": "S1",
+            "source_refs": [],
+            "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+            "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "narration": "星剪支持配音。",
+            "planned_seconds": 8,
+            "scene_id": "S2",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持配音"
+              }
+            ],
+            "subtitle": "星剪支持配音。",
+            "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」",
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "narration": "打开星剪，试试配音功能。",
+            "planned_seconds": 8,
+            "scene_id": "S3",
+            "source_refs": [],
+            "subtitle": "打开星剪，试试配音功能。",
+            "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样",
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ],
+        "estimated_total_seconds": 24,
+        "material_source_ids": [
+          "P01"
+        ],
+        "material_citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "script_id": "ad4237df5231"
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "actor": "deepseek_chat",
+      "action": "search_materials",
+      "arguments": {
+        "query": "星剪 字幕"
+      },
+      "observation": {
+        "ok": true,
+        "query": "星剪 字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      },
+      "decision_basis": "Need approved facts about 星剪 for a short demo script.",
+      "model_turn": 1,
+      "next_action": "search_materials"
+    },
+    {
+      "step": 2,
+      "actor": "deepseek_chat",
+      "action": "search_materials",
+      "arguments": {
+        "query": "星剪 产品功能"
+      },
+      "observation": {
+        "ok": true,
+        "query": "星剪 产品功能",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪配音功能说明（替换后的合成样例）",
+            "aliases": [
+              "星剪",
+              "配音",
+              "视频配音",
+              "voiceover"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持配音"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "996d7bf66bcc"
+      },
+      "decision_basis": "Only 支持配音 was returned; check for other approved 星剪 facts.",
+      "model_turn": 2,
+      "next_action": "estimate_duration"
+    },
+    {
+      "step": 3,
+      "actor": "deepseek_chat",
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "星剪：配音功能快速演示",
+          "scenes": [
+            {
+              "scene_id": "S1",
+              "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」",
+              "narration": "做短视频，想给画面配上声音？看看星剪。",
+              "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+              "planned_seconds": 8,
+              "source_refs": []
+            },
+            {
+              "scene_id": "S2",
+              "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」",
+              "narration": "星剪支持配音。",
+              "subtitle": "星剪支持配音。",
+              "planned_seconds": 8,
+              "source_refs": [
+                {
+                  "material_id": "P01",
+                  "fact_id": "F01",
+                  "quote": "支持配音"
+                }
+              ]
+            },
+            {
+              "scene_id": "S3",
+              "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样",
+              "narration": "打开星剪，试试配音功能。",
+              "subtitle": "打开星剪，试试配音功能。",
+              "planned_seconds": 8,
+              "source_refs": []
+            }
+          ]
+        }
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      },
+      "decision_basis": "Only approved fact is 星剪支持配音; build a concise three-scene demo within 30s.",
+      "model_turn": 3,
+      "next_action": "check_rules"
+    },
+    {
+      "step": 4,
+      "actor": "deepseek_chat",
+      "action": "check_rules",
+      "arguments": {
+        "script_id": "1303d412df17"
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "1303d412df17",
+        "passed": false,
+        "risks": [
+          {
+            "code": "unsupported_feature_claim",
+            "term": "快速"
+          }
+        ],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      "decision_basis": "Duration passed at 24s; verify facts and brand rules for script 1303d412df17.",
+      "model_turn": 4,
+      "next_action": "estimate_duration"
+    },
+    {
+      "step": 5,
+      "actor": "deepseek_chat",
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "scenes": [
+            {
+              "narration": "做短视频，想给画面配上声音？看看星剪。",
+              "planned_seconds": 8,
+              "scene_id": "S1",
+              "source_refs": [],
+              "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+              "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」"
+            },
+            {
+              "narration": "星剪支持配音。",
+              "planned_seconds": 8,
+              "scene_id": "S2",
+              "source_refs": [
+                {
+                  "fact_id": "F01",
+                  "material_id": "P01",
+                  "quote": "支持配音"
+                }
+              ],
+              "subtitle": "星剪支持配音。",
+              "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」"
+            },
+            {
+              "narration": "打开星剪，试试配音功能。",
+              "planned_seconds": 8,
+              "scene_id": "S3",
+              "source_refs": [],
+              "subtitle": "打开星剪，试试配音功能。",
+              "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样"
+            }
+          ],
+          "title": "星剪：配音功能演示"
+        }
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "estimated_total_seconds": 24,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 8,
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ]
+      },
+      "decision_basis": "Remove the unsupported word 快速 (flagged by rule check) from the title and re-estimate.",
+      "model_turn": 5,
+      "next_action": "check_rules"
+    },
+    {
+      "step": 6,
+      "actor": "deepseek_chat",
+      "action": "check_rules",
+      "arguments": {
+        "script_id": "ad4237df5231"
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "ad4237df5231",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      "decision_basis": "Revised script ad4237df5231 passes duration at 24s; verify facts and brand rules.",
+      "model_turn": 6,
+      "next_action": "finish"
+    },
+    {
+      "step": 7,
+      "actor": "deepseek_chat",
+      "action": "finish",
+      "arguments": {
+        "status": "complete",
+        "script_id": "ad4237df5231"
+      },
+      "observation": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "complete",
+        "incomplete_reason": null,
+        "risk_reasons": [],
+        "material_gaps": [],
+        "title": "星剪：配音功能演示",
+        "scenes": [
+          {
+            "narration": "做短视频，想给画面配上声音？看看星剪。",
+            "planned_seconds": 8,
+            "scene_id": "S1",
+            "source_refs": [],
+            "subtitle": "做短视频，想给画面配上声音？看看星剪。",
+            "visual": "手机竖屏界面，星剪合成产品功能页面截图淡入，标题「星剪」",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 4,
+            "estimated_seconds": 8,
+            "start_seconds": 0,
+            "end_seconds": 8
+          },
+          {
+            "narration": "星剪支持配音。",
+            "planned_seconds": 8,
+            "scene_id": "S2",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持配音"
+              }
+            ],
+            "subtitle": "星剪支持配音。",
+            "visual": "展示星剪合成产品功能页面截图，画面标注「支持配音」",
+            "spoken_minimum_seconds": 2,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 8,
+            "end_seconds": 16
+          },
+          {
+            "narration": "打开星剪，试试配音功能。",
+            "planned_seconds": 8,
+            "scene_id": "S3",
+            "source_refs": [],
+            "subtitle": "打开星剪，试试配音功能。",
+            "visual": "合成产品功能页面截图定格，屏幕下方出现「星剪」字样",
+            "spoken_minimum_seconds": 4,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 8,
+            "start_seconds": 16,
+            "end_seconds": 24
+          }
+        ],
+        "estimated_total_seconds": 24,
+        "material_source_ids": [
+          "P01"
+        ],
+        "material_citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持配音"
+          }
+        ],
+        "script_id": "ad4237df5231"
+      },
+      "decision_basis": "Script ad4237df5231: 24s estimate within 30s target; rules passed; only fact used is P01/F01 支持配音.",
+      "model_turn": 7,
+      "next_action": null
+    }
+  ],
+  "script_id": "ad4237df5231"
+}

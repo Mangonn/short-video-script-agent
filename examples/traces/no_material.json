@@ -1,0 +1,54 @@
+[
+  {
+    "step": 1,
+    "actor": "mock_policy",
+    "action": "search_materials",
+    "arguments": {
+      "query": "露营帐篷"
+    },
+    "observation": {
+      "ok": true,
+      "query": "露营帐篷",
+      "materials": [],
+      "corpus_revision": "48d51ddcaaae"
+    },
+    "decision_basis": "先检索主题对应的产品素材",
+    "next_action": "search_materials"
+  },
+  {
+    "step": 2,
+    "actor": "mock_policy",
+    "action": "search_materials",
+    "arguments": {
+      "query": "露营帐篷 产品素材"
+    },
+    "observation": {
+      "ok": true,
+      "query": "露营帐篷 产品素材",
+      "materials": [],
+      "corpus_revision": "48d51ddcaaae"
+    },
+    "decision_basis": "首次无结果，改写检索词补查",
+    "next_action": "finish"
+  },
+  {
+    "step": 3,
+    "actor": "mock_policy",
+    "action": "finish",
+    "arguments": {
+      "status": "needs_material"
+    },
+    "observation": {
+      "ok": true,
+      "accepted": true,
+      "task_status": "needs_material",
+      "incomplete_reason": "no_relevant_material",
+      "risk_reasons": [],
+      "material_gaps": [
+        "未找到可核查的产品素材，请提供素材或补充产品信息"
+      ]
+    },
+    "decision_basis": "补查后仍无可核查素材，请用户补充",
+    "next_action": null
+  }
+]

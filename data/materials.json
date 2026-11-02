@@ -1,0 +1,10 @@
+[
+  {
+    "material_id": "P01",
+    "product_name": "星剪",
+    "title": "星剪字幕功能说明",
+    "aliases": ["星剪", "字幕", "视频字幕", "短视频字幕", "caption"],
+    "visual_hint": "合成产品功能页面截图",
+    "facts": [{"fact_id": "F01", "text": "支持字幕"}]
+  }
+]

@@ -1,0 +1,26 @@
+test_cli_missing_key_has_no_silent_mock_fallback (test_agent.ScriptAcceptanceTests.test_cli_missing_key_has_no_silent_mock_fallback) ... ok
+test_deepseek_adapter_returns_tool_observation (test_agent.ScriptAcceptanceTests.test_deepseek_adapter_returns_tool_observation) ... ok
+test_duration_tool_failure_retries_before_completion (test_agent.ScriptAcceptanceTests.test_duration_tool_failure_retries_before_completion) ... ok
+test_estimated_draft_is_frozen_against_later_mutation (test_agent.ScriptAcceptanceTests.test_estimated_draft_is_frozen_against_later_mutation) ... ok
+test_estimator_does_not_trust_planned_seconds (test_agent.ScriptAcceptanceTests.test_estimator_does_not_trust_planned_seconds) ... ok
+test_fabricated_metric_cannot_be_finished (test_agent.ScriptAcceptanceTests.test_fabricated_metric_cannot_be_finished) ... ok
+test_finish_requires_both_checks_for_same_script (test_agent.ScriptAcceptanceTests.test_finish_requires_both_checks_for_same_script) ... ok
+test_missing_required_fields_stop_before_tools (test_agent.ScriptAcceptanceTests.test_missing_required_fields_stop_before_tools) ... ok
+test_no_material_rewrites_query_then_requests_source (test_agent.ScriptAcceptanceTests.test_no_material_rewrites_query_then_requests_source) ... ok
+test_normal_script_has_cited_fact_and_scene_timing (test_agent.ScriptAcceptanceTests.test_normal_script_has_cited_fact_and_scene_timing) ... ok
+test_overlong_draft_is_revised_and_rechecked (test_agent.ScriptAcceptanceTests.test_overlong_draft_is_revised_and_rechecked) ... ok
+test_parallel_model_calls_are_rejected_without_business_calls (test_agent.ScriptAcceptanceTests.test_parallel_model_calls_are_rejected_without_business_calls) ... ok
+test_platform_duration_boundary (test_agent.ScriptAcceptanceTests.test_platform_duration_boundary) ... ok
+test_removing_retrieval_result_changes_next_action (test_agent.ScriptAcceptanceTests.test_removing_retrieval_result_changes_next_action) ... ok
+test_replacing_source_fact_changes_script_and_quote (test_agent.ScriptAcceptanceTests.test_replacing_source_fact_changes_script_and_quote) ... ok
+test_rule_tool_failure_retries_before_completion (test_agent.ScriptAcceptanceTests.test_rule_tool_failure_retries_before_completion) ... ok
+test_search_failure_is_not_recorded_as_success (test_agent.ScriptAcceptanceTests.test_search_failure_is_not_recorded_as_success) ... ok
+test_step_and_tool_limits_are_explicit (test_agent.ScriptAcceptanceTests.test_step_and_tool_limits_are_explicit) ... ok
+test_unretrieved_material_and_wrong_quote_are_rejected (test_agent.ScriptAcceptanceTests.test_unretrieved_material_and_wrong_quote_are_rejected) ... ok
+test_unsubstantiated_ease_and_ui_details_are_rejected (test_agent.ScriptAcceptanceTests.test_unsubstantiated_ease_and_ui_details_are_rejected) ... ok
+test_unsupported_eighty_percent_claim_is_removed_after_rule_check (test_agent.ScriptAcceptanceTests.test_unsupported_eighty_percent_claim_is_removed_after_rule_check) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.049s
+
+OK

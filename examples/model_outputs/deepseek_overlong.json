@@ -1,0 +1,882 @@
+{
+  "topic": "星剪字幕",
+  "audience": "短视频新手",
+  "platform": "抖音",
+  "style": "清晰演示",
+  "target_duration_seconds": 30,
+  "task_status": "complete",
+  "incomplete_reason": null,
+  "title": "星剪字幕：30秒清晰演示",
+  "scenes": [
+    {
+      "narration": "做短视频，字幕是基本功。星剪支持字幕。",
+      "planned_seconds": 10,
+      "scene_id": "S1",
+      "source_refs": [
+        {
+          "fact_id": "F01",
+          "material_id": "P01",
+          "quote": "支持字幕"
+        }
+      ],
+      "subtitle": "星剪支持字幕",
+      "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近",
+      "spoken_minimum_seconds": 6,
+      "subtitle_minimum_seconds": 2,
+      "estimated_seconds": 10,
+      "start_seconds": 0,
+      "end_seconds": 10
+    },
+    {
+      "narration": "在星剪的字幕功能页，字幕内容直接呈现。",
+      "planned_seconds": 10,
+      "scene_id": "S2",
+      "source_refs": [
+        {
+          "fact_id": "F01",
+          "material_id": "P01",
+          "quote": "支持字幕"
+        }
+      ],
+      "subtitle": "星剪字幕功能：支持字幕",
+      "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，标注文字“字幕”",
+      "spoken_minimum_seconds": 6,
+      "subtitle_minimum_seconds": 2,
+      "estimated_seconds": 10,
+      "start_seconds": 10,
+      "end_seconds": 20
+    },
+    {
+      "narration": "新手做短视频，从星剪字幕开始。",
+      "planned_seconds": 10,
+      "scene_id": "S3",
+      "source_refs": [
+        {
+          "fact_id": "F01",
+          "material_id": "P01",
+          "quote": "支持字幕"
+        }
+      ],
+      "subtitle": "星剪：支持字幕",
+      "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”",
+      "spoken_minimum_seconds": 5,
+      "subtitle_minimum_seconds": 2,
+      "estimated_seconds": 10,
+      "start_seconds": 20,
+      "end_seconds": 30
+    }
+  ],
+  "estimated_total_seconds": 30,
+  "material_source_ids": [
+    "P01"
+  ],
+  "material_citations": [
+    {
+      "material_id": "P01",
+      "fact_id": "F01",
+      "quote": "支持字幕"
+    }
+  ],
+  "material_gaps": [],
+  "risk_reasons": [],
+  "tool_results": {
+    "search_materials": [
+      {
+        "ok": true,
+        "query": "星剪字幕 支持字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪字幕功能说明",
+            "aliases": [
+              "星剪",
+              "字幕",
+              "视频字幕",
+              "短视频字幕",
+              "caption"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持字幕"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "48d51ddcaaae"
+      }
+    ],
+    "estimate_duration": {
+      "e96ce59efd2b": {
+        "ok": true,
+        "script_id": "e96ce59efd2b",
+        "estimated_total_seconds": 38,
+        "target_duration_seconds": 30,
+        "within_target": false,
+        "over_by_seconds": 8,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 0,
+            "end_seconds": 12
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 14,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 14,
+            "start_seconds": 12,
+            "end_seconds": 26
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 26,
+            "end_seconds": 38
+          }
+        ]
+      },
+      "5930660176d1": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "estimated_total_seconds": 30,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 0,
+            "end_seconds": 10
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 10,
+            "end_seconds": 20
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 20,
+            "end_seconds": 30
+          }
+        ]
+      }
+    },
+    "check_rules": {
+      "5930660176d1": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持字幕"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    }
+  },
+  "draft_candidates": {
+    "e96ce59efd2b": {
+      "title": "星剪字幕：30秒清晰演示",
+      "scenes": [
+        {
+          "scene_id": "S1",
+          "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近",
+          "narration": "做短视频，字幕是基本功。星剪的字幕功能，支持字幕。",
+          "subtitle": "星剪字幕：支持字幕",
+          "planned_seconds": 12,
+          "source_refs": [
+            {
+              "material_id": "P01",
+              "fact_id": "F01",
+              "quote": "支持字幕"
+            }
+          ]
+        },
+        {
+          "scene_id": "S2",
+          "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，配合文字标注“字幕”",
+          "narration": "打开星剪的字幕功能页，字幕内容可直接呈现。",
+          "subtitle": "星剪字幕功能：支持字幕",
+          "planned_seconds": 14,
+          "source_refs": [
+            {
+              "material_id": "P01",
+              "fact_id": "F01",
+              "quote": "支持字幕"
+            }
+          ]
+        },
+        {
+          "scene_id": "S3",
+          "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”",
+          "narration": "新手做短视频，从星剪字幕开始。",
+          "subtitle": "星剪：支持字幕",
+          "planned_seconds": 12,
+          "source_refs": [
+            {
+              "material_id": "P01",
+              "fact_id": "F01",
+              "quote": "支持字幕"
+            }
+          ]
+        }
+      ]
+    },
+    "5930660176d1": {
+      "scenes": [
+        {
+          "narration": "做短视频，字幕是基本功。星剪支持字幕。",
+          "planned_seconds": 10,
+          "scene_id": "S1",
+          "source_refs": [
+            {
+              "fact_id": "F01",
+              "material_id": "P01",
+              "quote": "支持字幕"
+            }
+          ],
+          "subtitle": "星剪支持字幕",
+          "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近"
+        },
+        {
+          "narration": "在星剪的字幕功能页，字幕内容直接呈现。",
+          "planned_seconds": 10,
+          "scene_id": "S2",
+          "source_refs": [
+            {
+              "fact_id": "F01",
+              "material_id": "P01",
+              "quote": "支持字幕"
+            }
+          ],
+          "subtitle": "星剪字幕功能：支持字幕",
+          "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，标注文字“字幕”"
+        },
+        {
+          "narration": "新手做短视频，从星剪字幕开始。",
+          "planned_seconds": 10,
+          "scene_id": "S3",
+          "source_refs": [
+            {
+              "fact_id": "F01",
+              "material_id": "P01",
+              "quote": "支持字幕"
+            }
+          ],
+          "subtitle": "星剪：支持字幕",
+          "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”"
+        }
+      ],
+      "title": "星剪字幕：30秒清晰演示"
+    }
+  },
+  "latest_script_id": "5930660176d1",
+  "tool_call_count": 4,
+  "mode": "deepseek_chat",
+  "corpus_revision": "48d51ddcaaae",
+  "steps": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "query": "星剪字幕 支持字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪字幕功能说明",
+            "aliases": [
+              "星剪",
+              "字幕",
+              "视频字幕",
+              "短视频字幕",
+              "caption"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持字幕"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "48d51ddcaaae"
+      }
+    },
+    {
+      "step": 2,
+      "action": "estimate_duration",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "e96ce59efd2b",
+        "estimated_total_seconds": 38,
+        "target_duration_seconds": 30,
+        "within_target": false,
+        "over_by_seconds": 8,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 0,
+            "end_seconds": 12
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 14,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 14,
+            "start_seconds": 12,
+            "end_seconds": 26
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 26,
+            "end_seconds": 38
+          }
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "estimated_total_seconds": 30,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 0,
+            "end_seconds": 10
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 10,
+            "end_seconds": 20
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 20,
+            "end_seconds": 30
+          }
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持字幕"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      }
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "complete",
+        "incomplete_reason": null,
+        "risk_reasons": [],
+        "material_gaps": [],
+        "title": "星剪字幕：30秒清晰演示",
+        "scenes": [
+          {
+            "narration": "做短视频，字幕是基本功。星剪支持字幕。",
+            "planned_seconds": 10,
+            "scene_id": "S1",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪支持字幕",
+            "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 0,
+            "end_seconds": 10
+          },
+          {
+            "narration": "在星剪的字幕功能页，字幕内容直接呈现。",
+            "planned_seconds": 10,
+            "scene_id": "S2",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪字幕功能：支持字幕",
+            "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，标注文字“字幕”",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 10,
+            "end_seconds": 20
+          },
+          {
+            "narration": "新手做短视频，从星剪字幕开始。",
+            "planned_seconds": 10,
+            "scene_id": "S3",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪：支持字幕",
+            "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”",
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 20,
+            "end_seconds": 30
+          }
+        ],
+        "estimated_total_seconds": 30,
+        "material_source_ids": [
+          "P01"
+        ],
+        "material_citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持字幕"
+          }
+        ],
+        "script_id": "5930660176d1"
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "actor": "deepseek_chat",
+      "action": "search_materials",
+      "arguments": {
+        "query": "星剪字幕 支持字幕"
+      },
+      "observation": {
+        "ok": true,
+        "query": "星剪字幕 支持字幕",
+        "materials": [
+          {
+            "material_id": "P01",
+            "product_name": "星剪",
+            "title": "星剪字幕功能说明",
+            "aliases": [
+              "星剪",
+              "字幕",
+              "视频字幕",
+              "短视频字幕",
+              "caption"
+            ],
+            "visual_hint": "合成产品功能页面截图",
+            "facts": [
+              {
+                "fact_id": "F01",
+                "text": "支持字幕"
+              }
+            ]
+          }
+        ],
+        "corpus_revision": "48d51ddcaaae"
+      },
+      "decision_basis": "用户主题为星剪字幕，需先检索可用产品事实。",
+      "model_turn": 1,
+      "next_action": "estimate_duration"
+    },
+    {
+      "step": 2,
+      "actor": "deepseek_chat",
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "星剪字幕：30秒清晰演示",
+          "scenes": [
+            {
+              "scene_id": "S1",
+              "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近",
+              "narration": "做短视频，字幕是基本功。星剪的字幕功能，支持字幕。",
+              "subtitle": "星剪字幕：支持字幕",
+              "planned_seconds": 12,
+              "source_refs": [
+                {
+                  "material_id": "P01",
+                  "fact_id": "F01",
+                  "quote": "支持字幕"
+                }
+              ]
+            },
+            {
+              "scene_id": "S2",
+              "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，配合文字标注“字幕”",
+              "narration": "打开星剪的字幕功能页，字幕内容可直接呈现。",
+              "subtitle": "星剪字幕功能：支持字幕",
+              "planned_seconds": 14,
+              "source_refs": [
+                {
+                  "material_id": "P01",
+                  "fact_id": "F01",
+                  "quote": "支持字幕"
+                }
+              ]
+            },
+            {
+              "scene_id": "S3",
+              "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”",
+              "narration": "新手做短视频，从星剪字幕开始。",
+              "subtitle": "星剪：支持字幕",
+              "planned_seconds": 12,
+              "source_refs": [
+                {
+                  "material_id": "P01",
+                  "fact_id": "F01",
+                  "quote": "支持字幕"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "e96ce59efd2b",
+        "estimated_total_seconds": 38,
+        "target_duration_seconds": 30,
+        "within_target": false,
+        "over_by_seconds": 8,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 0,
+            "end_seconds": 12
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 14,
+            "spoken_minimum_seconds": 7,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 14,
+            "start_seconds": 12,
+            "end_seconds": 26
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 12,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 12,
+            "start_seconds": 26,
+            "end_seconds": 38
+          }
+        ]
+      },
+      "decision_basis": "初稿三场景各12/14/12秒，先提交估算时长。",
+      "model_turn": 2,
+      "next_action": "estimate_duration"
+    },
+    {
+      "step": 3,
+      "actor": "deepseek_chat",
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "scenes": [
+            {
+              "narration": "做短视频，字幕是基本功。星剪支持字幕。",
+              "planned_seconds": 10,
+              "scene_id": "S1",
+              "source_refs": [
+                {
+                  "fact_id": "F01",
+                  "material_id": "P01",
+                  "quote": "支持字幕"
+                }
+              ],
+              "subtitle": "星剪支持字幕",
+              "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近"
+            },
+            {
+              "narration": "在星剪的字幕功能页，字幕内容直接呈现。",
+              "planned_seconds": 10,
+              "scene_id": "S2",
+              "source_refs": [
+                {
+                  "fact_id": "F01",
+                  "material_id": "P01",
+                  "quote": "支持字幕"
+                }
+              ],
+              "subtitle": "星剪字幕功能：支持字幕",
+              "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，标注文字“字幕”"
+            },
+            {
+              "narration": "新手做短视频，从星剪字幕开始。",
+              "planned_seconds": 10,
+              "scene_id": "S3",
+              "source_refs": [
+                {
+                  "fact_id": "F01",
+                  "material_id": "P01",
+                  "quote": "支持字幕"
+                }
+              ],
+              "subtitle": "星剪：支持字幕",
+              "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”"
+            }
+          ],
+          "title": "星剪字幕：30秒清晰演示"
+        }
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "estimated_total_seconds": 30,
+        "target_duration_seconds": 30,
+        "within_target": true,
+        "over_by_seconds": 0,
+        "per_scene": [
+          {
+            "scene_id": "S1",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 0,
+            "end_seconds": 10
+          },
+          {
+            "scene_id": "S2",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 10,
+            "end_seconds": 20
+          },
+          {
+            "scene_id": "S3",
+            "planned_seconds": 10,
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 20,
+            "end_seconds": 30
+          }
+        ]
+      },
+      "decision_basis": "压缩至10/10/10秒，重新估算。",
+      "model_turn": 3,
+      "next_action": "check_rules"
+    },
+    {
+      "step": 4,
+      "actor": "deepseek_chat",
+      "action": "check_rules",
+      "arguments": {
+        "script_id": "5930660176d1"
+      },
+      "observation": {
+        "ok": true,
+        "script_id": "5930660176d1",
+        "passed": true,
+        "risks": [],
+        "citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持字幕"
+          }
+        ],
+        "checked_scene_ids": [
+          "S1",
+          "S2",
+          "S3"
+        ]
+      },
+      "decision_basis": "时长31秒内达标，脚本仅使用P01/F01“支持字幕”事实，提交规则检查。",
+      "model_turn": 4,
+      "next_action": "finish"
+    },
+    {
+      "step": 5,
+      "actor": "deepseek_chat",
+      "action": "finish",
+      "arguments": {
+        "status": "complete",
+        "script_id": "5930660176d1"
+      },
+      "observation": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "complete",
+        "incomplete_reason": null,
+        "risk_reasons": [],
+        "material_gaps": [],
+        "title": "星剪字幕：30秒清晰演示",
+        "scenes": [
+          {
+            "narration": "做短视频，字幕是基本功。星剪支持字幕。",
+            "planned_seconds": 10,
+            "scene_id": "S1",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪支持字幕",
+            "visual": "合成产品功能页面截图，标题区显示“星剪字幕”，镜头缓慢推近",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 0,
+            "end_seconds": 10
+          },
+          {
+            "narration": "在星剪的字幕功能页，字幕内容直接呈现。",
+            "planned_seconds": 10,
+            "scene_id": "S2",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪字幕功能：支持字幕",
+            "visual": "合成产品功能页面截图，画面下方展示一条字幕条示例，标注文字“字幕”",
+            "spoken_minimum_seconds": 6,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 10,
+            "end_seconds": 20
+          },
+          {
+            "narration": "新手做短视频，从星剪字幕开始。",
+            "planned_seconds": 10,
+            "scene_id": "S3",
+            "source_refs": [
+              {
+                "fact_id": "F01",
+                "material_id": "P01",
+                "quote": "支持字幕"
+              }
+            ],
+            "subtitle": "星剪：支持字幕",
+            "visual": "合成产品功能页面截图定格，底部出现提示文字“支持字幕”",
+            "spoken_minimum_seconds": 5,
+            "subtitle_minimum_seconds": 2,
+            "estimated_seconds": 10,
+            "start_seconds": 20,
+            "end_seconds": 30
+          }
+        ],
+        "estimated_total_seconds": 30,
+        "material_source_ids": [
+          "P01"
+        ],
+        "material_citations": [
+          {
+            "material_id": "P01",
+            "fact_id": "F01",
+            "quote": "支持字幕"
+          }
+        ],
+        "script_id": "5930660176d1"
+      },
+      "decision_basis": "时长估算30秒达标，规则检查通过；脚本仅引用P01/F01“支持字幕”。",
+      "model_turn": 5,
+      "next_action": null
+    }
+  ],
+  "script_id": "5930660176d1"
+}

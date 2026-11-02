@@ -1,0 +1,152 @@
+[
+  {
+    "step": 1,
+    "actor": "mock_policy",
+    "action": "search_materials",
+    "arguments": {
+      "query": "星剪字幕"
+    },
+    "observation": {
+      "ok": true,
+      "query": "星剪字幕",
+      "materials": [
+        {
+          "material_id": "P01",
+          "product_name": "星剪",
+          "title": "星剪字幕功能说明",
+          "aliases": [
+            "星剪",
+            "字幕",
+            "视频字幕",
+            "短视频字幕",
+            "caption"
+          ],
+          "visual_hint": "合成产品功能页面截图",
+          "facts": [
+            {
+              "fact_id": "F01",
+              "text": "支持字幕"
+            }
+          ]
+        }
+      ],
+      "corpus_revision": "48d51ddcaaae"
+    },
+    "decision_basis": "先检索主题对应的产品素材",
+    "next_action": "estimate_duration"
+  },
+  {
+    "step": 2,
+    "actor": "mock_policy",
+    "action": "estimate_duration",
+    "arguments": {
+      "script": {
+        "title": "星剪功能介绍",
+        "scenes": [
+          {
+            "scene_id": "S1",
+            "visual": "展示创作场景",
+            "narration": "今天看一下星剪。",
+            "subtitle": "开始创作",
+            "planned_seconds": 12,
+            "source_refs": []
+          },
+          {
+            "scene_id": "S2",
+            "visual": "展示产品功能页面",
+            "narration": "星剪支持字幕。效率提升80%。",
+            "subtitle": "支持字幕",
+            "planned_seconds": 14,
+            "source_refs": [
+              {
+                "material_id": "P01",
+                "fact_id": "F01",
+                "quote": "支持字幕"
+              }
+            ]
+          },
+          {
+            "scene_id": "S3",
+            "visual": "收尾提问画面",
+            "narration": "你想怎么表达下一条视频？",
+            "subtitle": "欢迎分享想法",
+            "planned_seconds": 12,
+            "source_refs": []
+          }
+        ]
+      }
+    },
+    "observation": {
+      "ok": true,
+      "script_id": "f76009b34f14",
+      "estimated_total_seconds": 38,
+      "target_duration_seconds": 45,
+      "within_target": true,
+      "over_by_seconds": 0,
+      "per_scene": [
+        {
+          "scene_id": "S1",
+          "planned_seconds": 12,
+          "spoken_minimum_seconds": 3,
+          "subtitle_minimum_seconds": 1,
+          "estimated_seconds": 12,
+          "start_seconds": 0,
+          "end_seconds": 12
+        },
+        {
+          "scene_id": "S2",
+          "planned_seconds": 14,
+          "spoken_minimum_seconds": 4,
+          "subtitle_minimum_seconds": 1,
+          "estimated_seconds": 14,
+          "start_seconds": 12,
+          "end_seconds": 26
+        },
+        {
+          "scene_id": "S3",
+          "planned_seconds": 12,
+          "spoken_minimum_seconds": 4,
+          "subtitle_minimum_seconds": 2,
+          "estimated_seconds": 12,
+          "start_seconds": 26,
+          "end_seconds": 38
+        }
+      ]
+    },
+    "decision_basis": "先生成完整分镜并交给独立工具估时",
+    "next_action": "check_rules"
+  },
+  {
+    "step": 3,
+    "actor": "mock_policy",
+    "action": "check_rules",
+    "arguments": {
+      "script_id": "f76009b34f14"
+    },
+    "observation": {
+      "ok": true,
+      "script_id": "f76009b34f14",
+      "passed": false,
+      "risks": [
+        {
+          "code": "unsupported_quantitative_claim",
+          "claim": "提升80"
+        }
+      ],
+      "citations": [
+        {
+          "material_id": "P01",
+          "fact_id": "F01",
+          "quote": "支持字幕"
+        }
+      ],
+      "checked_scene_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "decision_basis": "估时已通过，核对素材事实和品牌规则",
+    "next_action": null
+  }
+]

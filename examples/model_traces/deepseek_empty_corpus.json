@@ -1,0 +1,74 @@
+[
+  {
+    "step": 1,
+    "actor": "deepseek_chat",
+    "action": "search_materials",
+    "arguments": {
+      "query": "星剪字幕 支持字幕"
+    },
+    "observation": {
+      "ok": true,
+      "query": "星剪字幕 支持字幕",
+      "materials": [],
+      "corpus_revision": "37517e5f3dc6"
+    },
+    "decision_basis": "Need approved product facts for 星剪字幕 topic.",
+    "model_turn": 1,
+    "next_action": "search_materials"
+  },
+  {
+    "step": 2,
+    "actor": "deepseek_chat",
+    "action": "search_materials",
+    "arguments": {
+      "query": "字幕"
+    },
+    "observation": {
+      "ok": true,
+      "query": "字幕",
+      "materials": [],
+      "corpus_revision": "37517e5f3dc6"
+    },
+    "decision_basis": "Retry with broader keyword after empty result.",
+    "model_turn": 2,
+    "next_action": "search_materials"
+  },
+  {
+    "step": 3,
+    "actor": "deepseek_chat",
+    "action": "search_materials",
+    "arguments": {
+      "query": "星剪 视频剪辑 功能"
+    },
+    "observation": {
+      "ok": true,
+      "query": "星剪 视频剪辑 功能",
+      "materials": [],
+      "corpus_revision": "37517e5f3dc6"
+    },
+    "decision_basis": "Try product name variant search for approved facts.",
+    "model_turn": 3,
+    "next_action": "finish"
+  },
+  {
+    "step": 4,
+    "actor": "deepseek_chat",
+    "action": "finish",
+    "arguments": {
+      "status": "needs_material"
+    },
+    "observation": {
+      "ok": true,
+      "accepted": true,
+      "task_status": "needs_material",
+      "incomplete_reason": "no_relevant_material",
+      "risk_reasons": [],
+      "material_gaps": [
+        "未找到可核查的产品素材，请提供素材或补充产品信息"
+      ]
+    },
+    "decision_basis": "三次检索（星剪字幕、字幕、星剪）均无返回素材，缺少可引用的事实依据。",
+    "model_turn": 4,
+    "next_action": null
+  }
+]

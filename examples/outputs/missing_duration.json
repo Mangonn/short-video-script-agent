@@ -1,0 +1,17 @@
+{
+  "task_status": "needs_input",
+  "missing_fields": [
+    "target_duration_seconds"
+  ],
+  "incomplete_reason": "missing_required_input",
+  "risk_reasons": [],
+  "title": null,
+  "scenes": [],
+  "estimated_total_seconds": null,
+  "material_source_ids": [],
+  "material_citations": [],
+  "tool_results": {},
+  "steps": [],
+  "trace": [],
+  "mode": "preflight"
+}

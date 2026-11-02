@@ -1,0 +1,13 @@
+{
+  "minimum_scene_seconds": 3,
+  "spoken_chars_per_second": 3,
+  "subtitle_chars_per_second": 5,
+  "maximum_scenes": 6,
+  "platforms": {
+    "抖音": {"maximum_duration_seconds": 60},
+    "小红书": {"maximum_duration_seconds": 90},
+    "B站": {"maximum_duration_seconds": 180}
+  },
+  "forbidden_absolute_terms": ["保证", "行业第一", "零风险", "100%"],
+  "unsupported_feature_markers": ["自动生成", "免费", "零成本", "一键完成", "智能剪辑", "新手也能上手", "不用愁", "轻松", "快速", "省时", "字幕栏", "字幕区域", "字幕轨道", "配音入口"]
+}

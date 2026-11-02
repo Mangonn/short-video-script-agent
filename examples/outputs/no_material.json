@@ -1,0 +1,134 @@
+{
+  "topic": "露营帐篷",
+  "audience": "户外新手",
+  "platform": "抖音",
+  "style": "清晰演示",
+  "target_duration_seconds": 30,
+  "task_status": "needs_material",
+  "incomplete_reason": "no_relevant_material",
+  "title": null,
+  "scenes": [],
+  "estimated_total_seconds": null,
+  "material_source_ids": [],
+  "material_citations": [],
+  "material_gaps": [
+    "未找到可核查的产品素材，请提供素材或补充产品信息"
+  ],
+  "risk_reasons": [],
+  "tool_results": {
+    "search_materials": [
+      {
+        "ok": true,
+        "query": "露营帐篷",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      },
+      {
+        "ok": true,
+        "query": "露营帐篷 产品素材",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      }
+    ],
+    "estimate_duration": {},
+    "check_rules": {}
+  },
+  "draft_candidates": {},
+  "latest_script_id": null,
+  "tool_call_count": 2,
+  "mode": "mock_policy",
+  "corpus_revision": "48d51ddcaaae",
+  "steps": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "query": "露营帐篷",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      }
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "query": "露营帐篷 产品素材",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      }
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "status": "succeeded",
+      "tool_result": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "needs_material",
+        "incomplete_reason": "no_relevant_material",
+        "risk_reasons": [],
+        "material_gaps": [
+          "未找到可核查的产品素材，请提供素材或补充产品信息"
+        ]
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "actor": "mock_policy",
+      "action": "search_materials",
+      "arguments": {
+        "query": "露营帐篷"
+      },
+      "observation": {
+        "ok": true,
+        "query": "露营帐篷",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      },
+      "decision_basis": "先检索主题对应的产品素材",
+      "next_action": "search_materials"
+    },
+    {
+      "step": 2,
+      "actor": "mock_policy",
+      "action": "search_materials",
+      "arguments": {
+        "query": "露营帐篷 产品素材"
+      },
+      "observation": {
+        "ok": true,
+        "query": "露营帐篷 产品素材",
+        "materials": [],
+        "corpus_revision": "48d51ddcaaae"
+      },
+      "decision_basis": "首次无结果，改写检索词补查",
+      "next_action": "finish"
+    },
+    {
+      "step": 3,
+      "actor": "mock_policy",
+      "action": "finish",
+      "arguments": {
+        "status": "needs_material"
+      },
+      "observation": {
+        "ok": true,
+        "accepted": true,
+        "task_status": "needs_material",
+        "incomplete_reason": "no_relevant_material",
+        "risk_reasons": [],
+        "material_gaps": [
+          "未找到可核查的产品素材，请提供素材或补充产品信息"
+        ]
+      },
+      "decision_basis": "补查后仍无可核查素材，请用户补充",
+      "next_action": null
+    }
+  ]
+}

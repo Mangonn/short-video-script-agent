@@ -1,0 +1,10 @@
+[
+  {
+    "material_id": "P01",
+    "product_name": "星剪",
+    "title": "星剪配音功能说明（替换后的合成样例）",
+    "aliases": ["星剪", "配音", "视频配音", "voiceover"],
+    "visual_hint": "合成产品功能页面截图",
+    "facts": [{"fact_id": "F01", "text": "支持配音"}]
+  }
+]
