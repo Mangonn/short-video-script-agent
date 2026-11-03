@@ -81,12 +81,15 @@ class MockPolicy:
         if variant == "detailed" and "80%" in request["style"].replace(" ", ""):
             narration += "效率提升80%。"
         return {"title": f"{product}功能介绍", "scenes": [
-            {"scene_id": "S1", "visual": "展示创作场景", "narration": f"今天看一下{product}。",
-             "subtitle": "开始创作", "planned_seconds": timings[0], "source_refs": []},
-            {"scene_id": "S2", "visual": "展示产品功能页面", "narration": narration,
+            {"scene_id": "S1", "visual": "创作者面对一段待编辑的视频",
+             "narration": f"做短视频时，怎样把信息讲清楚？今天看看{product}。",
+             "subtitle": "先想清楚要说什么", "planned_seconds": timings[0], "source_refs": []},
+            {"scene_id": "S2", "visual": "展示合成产品功能页面，画面标出已核准的功能文字",
+             "narration": narration + "这里用一段示意画面说明。",
              "subtitle": fact["text"], "planned_seconds": timings[1], "source_refs": [reference]},
-            {"scene_id": "S3", "visual": "收尾提问画面", "narration": "你想怎么表达下一条视频？",
-             "subtitle": "欢迎分享想法", "planned_seconds": timings[2], "source_refs": []}]}
+            {"scene_id": "S3", "visual": "以创作者问题收尾",
+             "narration": "如果是你的下一条视频，你会先写哪一句？",
+             "subtitle": "欢迎分享你的第一句", "planned_seconds": timings[2], "source_refs": []}]}
 
     def decide(self, request: dict, state: dict) -> dict:
         searches = state["searches"]

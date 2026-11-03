@@ -45,16 +45,16 @@
         "scenes": [
           {
             "scene_id": "S1",
-            "visual": "展示创作场景",
-            "narration": "今天看一下星剪。",
-            "subtitle": "开始创作",
+            "visual": "创作者面对一段待编辑的视频",
+            "narration": "做短视频时，怎样把信息讲清楚？今天看看星剪。",
+            "subtitle": "先想清楚要说什么",
             "planned_seconds": 12,
             "source_refs": []
           },
           {
             "scene_id": "S2",
-            "visual": "展示产品功能页面",
-            "narration": "星剪支持字幕。",
+            "visual": "展示合成产品功能页面，画面标出已核准的功能文字",
+            "narration": "星剪支持字幕。这里用一段示意画面说明。",
             "subtitle": "支持字幕",
             "planned_seconds": 14,
             "source_refs": [
@@ -67,9 +67,9 @@
           },
           {
             "scene_id": "S3",
-            "visual": "收尾提问画面",
-            "narration": "你想怎么表达下一条视频？",
-            "subtitle": "欢迎分享想法",
+            "visual": "以创作者问题收尾",
+            "narration": "如果是你的下一条视频，你会先写哪一句？",
+            "subtitle": "欢迎分享你的第一句",
             "planned_seconds": 12,
             "source_refs": []
           }
@@ -78,7 +78,7 @@
     },
     "observation": {
       "ok": true,
-      "script_id": "0d6118d01f44",
+      "script_id": "8b1db109ae7b",
       "estimated_total_seconds": 38,
       "target_duration_seconds": 30,
       "within_target": false,
@@ -87,8 +87,8 @@
         {
           "scene_id": "S1",
           "planned_seconds": 12,
-          "spoken_minimum_seconds": 3,
-          "subtitle_minimum_seconds": 1,
+          "spoken_minimum_seconds": 7,
+          "subtitle_minimum_seconds": 2,
           "estimated_seconds": 12,
           "start_seconds": 0,
           "end_seconds": 12
@@ -96,7 +96,7 @@
         {
           "scene_id": "S2",
           "planned_seconds": 14,
-          "spoken_minimum_seconds": 2,
+          "spoken_minimum_seconds": 6,
           "subtitle_minimum_seconds": 1,
           "estimated_seconds": 14,
           "start_seconds": 12,
@@ -105,7 +105,7 @@
         {
           "scene_id": "S3",
           "planned_seconds": 12,
-          "spoken_minimum_seconds": 4,
+          "spoken_minimum_seconds": 6,
           "subtitle_minimum_seconds": 2,
           "estimated_seconds": 12,
           "start_seconds": 26,

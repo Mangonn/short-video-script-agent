@@ -21,6 +21,6 @@ test_unsubstantiated_ease_and_ui_details_are_rejected (test_agent.ScriptAcceptan
 test_unsupported_eighty_percent_claim_is_removed_after_rule_check (test_agent.ScriptAcceptanceTests.test_unsupported_eighty_percent_claim_is_removed_after_rule_check) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.049s
+Ran 21 tests in 0.080s
 
 OK
